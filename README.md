@@ -19,10 +19,10 @@ Cost Calculator is a user-friendly tool designed to help individuals and busines
 
 ### Prerequisites
 
-Before you begin, ensure you have the following installed:
+Before you begin, ensure you have the following:
 - A modern web browser (Chrome, Firefox, Safari, Edge)
-- [Node.js](https://nodejs.org/) (if applicable)
 - [Git](https://git-scm.com/) for cloning the repository
+- [Node.js](https://nodejs.org/) (optional, required only if using Node.js-based implementation)
 
 ### Installation
 
@@ -37,8 +37,8 @@ cd Cost-Calculator
 ```
 
 3. Open the application:
-   - For web-based version: Open `index.html` in your browser
-   - For Node.js version: Install dependencies and run
+   - For static HTML version: Open `index.html` in your browser (once added to the project)
+   - For Node.js-based version: Install dependencies and run:
 ```bash
 npm install
 npm start
@@ -73,10 +73,11 @@ Total Cost: $1,850
 
 ```
 Cost-Calculator/
-├── LICENSE
-├── README.md
-└── (Additional files to be added)
+├── LICENSE           # MIT License file
+└── README.md         # This file
 ```
+
+*Note: Project structure will be updated as development progresses.*
 
 ## 🤝 Contributing
 
